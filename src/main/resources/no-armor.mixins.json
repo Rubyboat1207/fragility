@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "net.rubyboat.me.noarmor.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "PlayerEntityMixin",
+    "PlayerManagerMixin",
+    "ServerPlayerEntityMixin",
+    "ServerCommonNetworkHandlerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}
